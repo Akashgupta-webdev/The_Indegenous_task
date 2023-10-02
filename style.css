@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: verdana;
+}
+.container {
+  width: 50%;
+  min-width: 450px;
+  margin: 120px auto;
+}
+.logo1 {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbar {
+  font-size: 17px;
+  width: 70%;
+  min-width: 420px;
+  padding: 10px 20px;
+  border-radius: 200px;
+  border: 2px solid green;
+  margin-bottom: 18px;
+}
+
+.searchbar::placeholder {
+  color: black;
+  
+}
+.searchbar-input {
+  color: black;
+}
+.button {
+  align-items: center;
+  margin-left: 35%;
+  padding: 10px 18px;
+  background: green;
+  border: 2px solid green;
+  border-radius: 200px;
+  color: white;
+  font-family: Arial;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: red;
+  background-color: white;
+}
+
+.web-content {
+  margin: 20px 0;
+  padding: 10px 8px;  
+  color: rgba(0,0,0,0.8);
+}
+.web-result {
+  margin-bottom: 20px;
+  font-size: 32px
+}
+.content {
+  border: 1px solid rgba(0, 255, 0, 0.4);
+  padding: 12px 8px;
+  border-radius: 7px;
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 20px;
+}
+.paragraph {
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.more {
+  margin: 12px 0px;
+  
+}
+.link {
+  text-decoration: none;
+  font-size: 15px;
+  padding: 8px 9px;
+  background-color: rgba(0, 255, 12, 1);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  cursor: pointer;
+}
